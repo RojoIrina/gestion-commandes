@@ -12,7 +12,7 @@ class connect extends PDO{
     public function __construct(){
     try {
         parent::__construct("mysql:host=" . self::HOST . ";dbname=" . self::DB, self::USER, self::PSW);
-        echo "Connexion réussie";
+      
     } catch (PDOException $e ) {
         echo $e->getMessage()."".$e->getFile()."".$e->getLine();
     }    
