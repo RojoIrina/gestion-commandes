@@ -18,8 +18,4 @@ class connect extends PDO{
     }    
     }
 }
-
-
-
-
 ?> 

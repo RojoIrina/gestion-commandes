@@ -76,7 +76,8 @@ $pdostmt->execute();
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
-                    <a  href="delete.php?id=<?php echo $ligne["idclient"] ?>" type="button" class="btn btn-danger">Supprimer</a>
+                    <a href="delete.php?idcommande=<?php echo $ligne["idcommande"] ?>" type="button" class="btn btn-danger">Supprimer</a>
+
                 </div>
                 </div>
             </div>
